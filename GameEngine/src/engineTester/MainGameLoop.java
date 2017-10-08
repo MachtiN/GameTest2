@@ -27,7 +27,7 @@ public class MainGameLoop {
 		
 		TexturedModel staticModel = new TexturedModel(model,new ModelTexture(loader.loadTexture("stallTexture")));
 		
-		Entity entity = new Entity(staticModel, new Vector3f(0,0,-25),0,0,0,1);
+		Entity entity = new Entity(staticModel, new Vector3f(0,-3,-25),0,0,0,1);
 		
 		Camera camera = new Camera();
 		
